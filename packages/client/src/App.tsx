@@ -10,7 +10,10 @@ function App() {
     // <p className="font-bold text-3xl">{message}</p>
     // <Button>Click me</Button>
     // </div>
-    <ChatBot />
+    <div className='p-4 h-screen w-full'>
+      <ChatBot />
+    </div>
+  
   )
 }
 
